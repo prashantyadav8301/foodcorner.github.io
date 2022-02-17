@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Ubuntu:ital,wght@1,500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.section{
+    height: 100vh;
+    background: url(img1.jpg) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+
+.container{
+    color: rgb(3, 94, 11);
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+}
+.container h1{
+    font-family: 'Irish Grover', cursive;
+    font-size: 2rem;
+    font-weight:bold;
+    text-align: center;
+
+}
+.container p{
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 20px;
+    color:blue;
+    font-weight:bolder;
+}
+span{
+    font-family: 'Irish Grover', cursive;
+    display: inline-block;
+    color: rgb(1, 90, 10);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+form{
+    text-align: center;
+}
+input{
+    width: 80%;
+    display: block;
+    margin: auto;
+    border-radius: 3rem;
+    padding: 10px;
+    border: none;
+    /* outline: none; */
+}
+
+button{
+    /* display: inline-block; */
+    background-color: rgba(0, 255, 255, 0.555);
+    width: 20%;
+    text-align: center;
+    margin: 1rem auto;
+    color: white;
+    padding: 6px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(0, 140, 255);
+    
+}
+
+/* Product section  */
+
+.product{
+    display: flex;
+    margin: 4rem 4rem;
+    /* align-items: center; */
+}
+.item h2{
+    font-family: 'Irish Grover', cursive;
+}
+.item p{
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bold;
+}

@@ -1,0 +1,16 @@
+@media screen and (max-width : 900px) and (min-width : 600px){
+    .product{
+        flex-direction: column;
+        width: 30vw;
+        margin: 4rem 18rem;
+    }
+    .container h1{
+        margin-top: 12rem;
+    }
+    span{
+        margin-left: 50px;
+    }
+    button{
+        width: 30%;
+    }
+}
